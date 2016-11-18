@@ -9,6 +9,8 @@
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
+	max-height: 50%;
+	margin-top: 20px;
 }
 
 
@@ -44,6 +46,8 @@ sidebar
 	max-width: 30%;
 	display: flex;
 	flex-direction: column;
+	border: 2px solid black;
+	padding: 10px;
 }
 
 
@@ -55,4 +59,7 @@ main
 .main {
 	max-width: 60%;
 	align-self: right;
+	
+	overflow: auto;
+
 }
