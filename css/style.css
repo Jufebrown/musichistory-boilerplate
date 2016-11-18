@@ -67,7 +67,6 @@ sidebar
 	padding: 0;
 	border: none;
 	margin: 0;
-	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
 	
@@ -84,11 +83,16 @@ sidebar
 	flex-direction: column;
 	padding: 0;
 	margin: 0;
+	margin-left: 20px;
 	max-width: 50%;
 }
 
 .sidebar input:last-child {
 	margin-top: 20px;
+}
+
+.sidebar select {
+	height: 2em;
 }
 
 /********************
