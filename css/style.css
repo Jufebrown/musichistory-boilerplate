@@ -59,7 +59,21 @@ sidebar
 
 }
 
+label {
+	margin-top: 10px;
+}
 
+label:first-child {
+	margin-top: 0;
+}
+
+fieldset {
+	margin-top: 10px;
+}
+
+input[submit] {
+	margin-top: 10px;
+}
 
 
 
