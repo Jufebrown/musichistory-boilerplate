@@ -38,20 +38,21 @@
 						<option>Tennessee</option>
 					</select>
 					<label>Genre:</label>
-					<fieldset>
-					<div class="check-col">
-						<input type="checkbox" name="genre" value="rock" id="rock"><label for="rock">Rock</label></input>
-						<input type="checkbox" name="genre" value="pop" id="pop"><label for="pop">Pop</label></input>
-						<input type="checkbox" name="genre" value="blues" id="blues"><label for="blues">Blues</label></input>
+					<div class="check-fieldset">
+						<div class="check-col">
+							<input type="checkbox" name="rock" value="rock" id="rock"><label for="rock">Rock</label></input>
+							<input type="checkbox" name="pop" value="pop" id="pop"><label for="pop">Pop</label></input>
+							<input type="checkbox" name="blues" value="blues" id="blues"><label for="blues">Blues</label></input>
+						</div>
+						<div class="check-col">
+							<input type="checkbox" name="classical" value="classical" id="classical"><label for="classical">Classical</label></input>
+							<input type="checkbox" name="jazz" value="jazz" id="jazz"><label for="jazz">Jazz</label></input>
+							<input type="checkbox" name="hip-hop" value="hip-hop" id="hip-hop"><label for="hip-hop">Hip hop</label></input>
+						</div>
 					</div>
-					<div class="check-col">
-						<input type="checkbox" name="genre" value="classical" id="classical"><label for="classical">Classical</label></input>
-						<input type="checkbox" name="genre" value="jazz" id="jazz"><label for="jazz">Jazz</label></input>
-						<input type="checkbox" name="genre" value="hip-hop" id="hip-hop"><label for="hip-hop">Hip hop</label></input>
-					</div>
-					</fieldset>
 					<input type="submit" value="Filter">
 				</form>
+
 				<div class="main">
 					<article class="song-card">
 						<h1>Unity</h1>
@@ -151,6 +152,8 @@
 					</article>
 				</div>
 			</div>
+		</div>
+		</div>
 		</div>
 	</body>
 </html>

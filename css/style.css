@@ -63,18 +63,18 @@ sidebar
 	margin-top: 20px;
 }
 
-.sidebar fieldset {
+.check-fieldset {
 	padding: 0;
 	border: none;
 	margin: 0;
 	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-around;
-	width: 100%;
+	justify-content: flex-start;
+	max-width: 100%;
 }
 
-.sidebar fieldset label {
+.check-fieldset label {
 	margin: 0;
 	padding: 0;
 }
@@ -99,7 +99,6 @@ main
 .main {
 	padding-left: 10px;
 	flex-grow: 2;
-	align-self: right;
 	border: 2px solid black;
 	overflow: auto;
 	background-color: #FEFAC0;
@@ -108,5 +107,4 @@ main
 .main h1 {
 	margin-bottom: 0;
 	color: #785616;
-
 }
