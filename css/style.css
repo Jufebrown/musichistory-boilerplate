@@ -70,7 +70,7 @@ sidebar
 	margin-left: 10px;
 	display: flex;
 	flex-direction: row;
-	justify-content: flex-start;
+	
 	max-width: 100%;
 }
 
@@ -85,18 +85,17 @@ sidebar
 	padding: 0;
 	margin: 0;
 	max-width: 50%;
+}
 
 .sidebar input:last-child {
 	margin-top: 20px;
 }
 
-
-
 /********************
-main
+song-body
 ********************/
 
-.main {
+.song-body {
 	padding-left: 10px;
 	flex-grow: 2;
 	border: 2px solid black;
@@ -104,7 +103,7 @@ main
 	background-color: #FEFAC0;
 }
 
-.main h1 {
+.song-body h1 {
 	margin-bottom: 0;
 	color: #785616;
 }
