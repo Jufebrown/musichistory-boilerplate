@@ -1,0 +1,14 @@
+.main-nav {
+	border: 2px solid black;
+	background-color: pink;
+	padding: 10px;
+}
+
+.main-nav a {
+	padding: 5px;
+	border-right: 1px solid black;
+}
+
+.main-nav a:last-child {
+	border: none;
+}
