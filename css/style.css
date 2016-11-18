@@ -57,13 +57,11 @@ sidebar
 	padding: 10px;
 	margin-right: 20px;
 	background-color: #4DD7FA;
-
 }
 
 .sidebar label {
 	margin-top: 20px;
 }
-
 
 .sidebar fieldset {
 	padding: 0;
@@ -71,11 +69,22 @@ sidebar
 	margin: 0;
 	margin-left: 10px;
 	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+	width: 100%;
 }
 
-.sidebar fieldset input {
-
+.sidebar fieldset label {
+	margin: 0;
+	padding: 0;
 }
+
+.check-col {
+	display: flex;
+	flex-direction: column;
+	padding: 0;
+	margin: 0;
+	max-width: 50%;
 
 .sidebar input:last-child {
 	margin-top: 20px;
