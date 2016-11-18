@@ -1,7 +1,20 @@
+.page-wrap {
+	display: flex;
+	flex-direction: column;
+	width: 80%;
+	margin: auto;
+}
+
+/********************
+navigation
+********************/
+
 .main-nav {
 	border: 2px solid black;
 	background-color: pink;
 	padding: 10px;
+	max-width: 100%;
+	display: block;
 }
 
 .main-nav a {
@@ -12,3 +25,13 @@
 .main-nav a:last-child {
 	border: none;
 }
+
+/********************
+sidebar
+********************/
+
+
+
+/********************
+main
+********************/
