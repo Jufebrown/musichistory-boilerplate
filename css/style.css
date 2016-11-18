@@ -5,6 +5,11 @@
 	margin: auto;
 }
 
+.container {
+	display: flex;
+	flex-direction: row;
+}
+
 /********************
 navigation
 ********************/
