@@ -73,11 +73,10 @@ sidebar
 	margin: 0;
 	margin-left: 10px;
 	display: flex;
-
 }
 
-.sidebar legend {
-	margin-left: none;
+.sidebar fieldset input {
+
 }
 
 .sidebar input:last-child {
