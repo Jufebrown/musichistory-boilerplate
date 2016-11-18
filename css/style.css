@@ -59,20 +59,29 @@ sidebar
 
 }
 
-label {
-	margin-top: 10px;
+.sidebar label {
+	margin-top: 20px;
 }
 
-label:first-child {
+.sidebar label:first-child {
 	margin-top: 0;
 }
 
-fieldset {
-	margin-top: 10px;
+.sidebar fieldset {
+	padding: 0;
+	border: none;
+	margin: 0;
+	margin-left: 10px;
+	display: flex;
+
 }
 
-input[submit] {
-	margin-top: 10px;
+.sidebar legend {
+	margin-left: none;
+}
+
+.sidebar input:last-child {
+	margin-top: 20px;
 }
 
 
