@@ -95,6 +95,14 @@ sidebar
 	height: 2em;
 }
 
+input[type=submit] {
+	padding: 5px;
+	background-color: #f4f4f4;
+	border-radius: 5px;
+	font-size: 1em;
+}
+
+
 /********************
 song-body
 ********************/
