@@ -90,9 +90,14 @@ main
 ********************/
 
 .main {
+	padding-left: 10px;
 	flex-grow: 2;
 	align-self: right;
 	border: 2px solid black;
 	overflow: auto;
+}
+
+.main h1 {
+	margin-bottom: 0;
 
 }
