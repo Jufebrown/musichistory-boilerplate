@@ -64,9 +64,6 @@ sidebar
 	margin-top: 20px;
 }
 
-.sidebar label:first-child {
-	margin-top: 0;
-}
 
 .sidebar fieldset {
 	padding: 0;
