@@ -19,12 +19,13 @@ function removeBadChar() {
 	 	songs[i] = songs[i].split("*").join("");
 	 	songs[i] = songs[i].split("!").join("");
 	 	songs[i] = songs[i].split("(").join("");
+// Students must find and replace the > character in each item with a - character.
+		songs[i] = songs[i].split(">").join("-");
 	}
 }
 
 removeBadChar();
 console.log(songs);
 
-// Students must find and replace the > character in each item with a - character.
 // Must add each string to the DOM in index.html in the main content area.
 
