@@ -30,6 +30,7 @@ console.log(songs);
 // Must add each string to the DOM in index.html in the main content area.
 // {Song name} by {Artist} on the album {Album}
 
+
 // function to break down strings into song, artist, and album variables
 function musicBreakdown() {	
 	for (var i = songs.length - 1; i >= 0; i--) {
@@ -41,5 +42,13 @@ function musicBreakdown() {
 		console.log(artist);
 		var album = artistArray[1];
 		console.log(album);
+		var newSong = document.createElement('article');
+		newSong.innerHTML = '<h1>' + song + '</h1><ul><li>' + artist + '</li><li>' + album + '</li><li></li></ul>';
+		document.getElementById('songBody').appendChild(newSong);
+		
+		
 	}
 }
+
+
+musicBreakdown();
