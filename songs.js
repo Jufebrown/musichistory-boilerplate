@@ -28,4 +28,18 @@ removeBadChar();
 console.log(songs);
 
 // Must add each string to the DOM in index.html in the main content area.
+// {Song name} by {Artist} on the album {Album}
 
+// function to break down strings into song, artist, and album variables
+function musicBreakdown() {	
+	for (var i = songs.length - 1; i >= 0; i--) {
+		var songArray = songs[i].split(" - by ");
+		song = songArray[0];
+		console.log(song);
+		var artistArray = songArray[1].split(" on the album ");
+		artist = artistArray[0];
+		console.log(artist);
+		var album = artistArray[1];
+		console.log(album);
+	}
+}
