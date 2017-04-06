@@ -1,4 +1,4 @@
-var songs = [];
+let songs = [];
 
 songs[songs.length] = "Legs > by Z*ZTop on the album Eliminator";
 songs[songs.length] = "The Logical Song > by Supertr@amp on the album Breakfast in America";
@@ -12,7 +12,7 @@ songs.push("Fucc the Devil > by Andrew Jackson Jihad on the album Knife Man")
 
 
 // Loop over the array and remove any words or characters that obviously don't belong.
-function removeBadChar() {
+const removeBadChar = () => {
 	for (var i = songs.length - 1; i >= 0; i--) {
 	 	songs[i] = songs[i].split("@").join("");
 	 	songs[i] = songs[i].split("*").join("");
@@ -25,26 +25,21 @@ function removeBadChar() {
 
 removeBadChar();
 
-
 // Must add each string to the DOM in index.html in the main content area.
 // {Song name} by {Artist} on the album {Album}
 
-
 // function to break down strings into song, artist, and album variables
-function musicBreakdown() {
-	for (var i = songs.length - 1; i >= 0; i--) {
-		var songArray = songs[i].split(" - by ");
+const musicBreakdown = () => {
+	for (let i = songs.length - 1; i >= 0; i--) {
+		let songArray = songs[i].split(" - by ");
 		song = songArray[0];
-		var artistArray = songArray[1].split(" on the album ");
+		let artistArray = songArray[1].split(" on the album ");
 		artist = artistArray[0];
-		var album = artistArray[1];
-		var newSong = document.createElement('article');
+		let album = artistArray[1];
+		const newSong = document.createElement('article');
 		newSong.innerHTML = '<h1>' + song + '</h1><ul><li>' + artist + '</li><li>' + album + '</li><li></li></ul>';
 		document.getElementById('songBody').appendChild(newSong);
-
-
 	}
 }
-
 
 musicBreakdown();
